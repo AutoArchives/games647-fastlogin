@@ -36,7 +36,7 @@ body:
     attributes:
       label: Server log
       description: The error, stacktrace or link the complete log. You can use the links above for long versions.
-      placeholder: https://hastebin.com/ / https://gist.github.com/
+      placeholder: https://www.toptal.com/developers/hastebin / https://gist.github.com/
   - type: input
     attributes:
       label: Plugin version
@@ -61,7 +61,7 @@ body:
       options:
         - label: |
             I tried the [latest build](https://ci.codemc.io/job/Games647/job/FastLogin/) 
-            (build refers to development builds not necessary a release version)
+            (build refers to development builds not necessary a release version; i.e. v1.10 is out of date)
           required: true
         - label: |
             I checked for existing tickets -
